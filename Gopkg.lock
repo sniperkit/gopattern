@@ -2,6 +2,12 @@
 
 
 [[projects]]
+  name = "github.com/allegro/bigcache"
+  packages = [".","queue"]
+  revision = "aa76879d59fa5d93c43680238227dbf7a53f5c28"
+  version = "v1.0.0"
+
+[[projects]]
   name = "github.com/onsi/ginkgo"
   packages = [".","config","internal/codelocation","internal/containernode","internal/failer","internal/leafnodes","internal/remote","internal/spec","internal/spec_iterator","internal/specrunner","internal/suite","internal/testingtproxy","internal/writer","reporters","reporters/stenographer","reporters/stenographer/support/go-colorable","reporters/stenographer/support/go-isatty","types"]
   revision = "9eda700730cba42af70d53180f9dcce9266bc2bc"
@@ -40,6 +46,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "a5f582949e466f1feb19df216895b5a917d893bcb6b3a59b2ffe50699686a410"
+  inputs-digest = "e7a8ea5f70b47384117cb9bafdc4d02ef544a687d25c14d25b84254d6b6a0ed2"
   solver-name = "gps-cdcl"
   solver-version = 1

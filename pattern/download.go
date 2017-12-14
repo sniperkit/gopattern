@@ -7,6 +7,7 @@ import (
 
 // in this file, we will discuess a pattern for downloading same sources multiple times
 // requirement: there should be only one real download request for same source
+// ref, http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/
 
 func downloadHandler(sourceURL string) {
 
