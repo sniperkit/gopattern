@@ -1,4 +1,4 @@
-package dispatch
+package jobworker
 
 import (
 	"io/ioutil"
