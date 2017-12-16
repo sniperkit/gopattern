@@ -28,3 +28,7 @@
 [[constraint]]
   name = "github.com/allegro/bigcache"
   version = "1.0.0"
+
+[[constraint]]
+  name = "google.golang.org/grpc"
+  version = "1.8.2"
